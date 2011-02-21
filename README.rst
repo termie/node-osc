@@ -26,6 +26,18 @@ Example
 
   client.send(msg);
 
+You can also create a OSC server:
+
+::
+
+  var osc = require('osc');
+
+  var server = osc.Server(10001, '127.0.0.1');
+  
+  server.addMsgHandler('/bang', function (args) {
+     console.log('I got a bang!')
+  });
+
 Licensing
 ---------
 
