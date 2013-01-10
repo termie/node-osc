@@ -1,3 +1,8 @@
+DEPRECATED: 
+===========
+
+Please see https://github.com/TheAlphaNerd/node-osc
+
 --------
 node-osc
 --------
